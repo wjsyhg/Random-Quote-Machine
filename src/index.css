@@ -23,6 +23,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.left-quote {
+  margin-right: 0.4em;
+}
+
 #author {
   width: 450px;
   text-align: right;
@@ -45,6 +49,10 @@ body {
   cursor: pointer;
 }
 
+#new-quote:hover {
+  opacity: 0.7;
+}
+
 #tweet-quote {
   display: flex;
   background-color: rgb(22, 160, 133);
@@ -55,6 +63,10 @@ body {
   align-items: center;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#tweet-quote:hover {
+  opacity: 0.9;
 }
 
 
